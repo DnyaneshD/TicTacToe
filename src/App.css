@@ -1,0 +1,31 @@
+.app {
+  text-align: center;
+}
+
+.game {
+  margin: auto;
+  width: 25%;
+  padding: 10px;
+}
+
+td {
+  height: 100px;
+  width: 100px;
+  overflow: auto;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+td + td,
+th + th {
+  border-left: 2px solid black;
+}
+tr + tr {
+  border-top: 2px solid black;
+}
+
+h4 {
+  display: inline;
+}
